@@ -1,7 +1,1 @@
-// Runs in the visitor's browser.
-const button = document.getElementById("greet");
-const message = document.getElementById("message");
-
-button.addEventListener("click", () => {
-  message.textContent = "Hello! The time is " + new Date().toLocaleTimeString();
-});
+const button=document.getElementById('greet'),message=document.getElementById('message');if(button&&message){button.addEventListener('click',()=>{message.textContent='Hello! The time is '+new Date().toLocaleTimeString();});}const chatScript=document.createElement('script');chatScript.src='chat.js';document.body.append(chatScript);
